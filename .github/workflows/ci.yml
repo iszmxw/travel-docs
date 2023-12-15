@@ -35,10 +35,10 @@ jobs:
       run: pnpm install
 
     - name: 删除docs
-      run: rm -rf .vitepress/dist
+      run: rm -rf docs
 
     - name: 创建文件夹
-      run: mkdir -p .vitepress/dist
+      run: mkdir -p docs
 
     - name: 打包
       run: pnpm run build
@@ -48,5 +48,5 @@ jobs:
       with:
         # 部署分支 gh-pages（GitHub Pages 读取的分支）
         branch: gh-pages
-        # 需要部署的文件在 .vitepress/dist 目录下面，也就是我们使用 npm run build 生成的静态文件的位置
-        folder: .vitepress/dist
+        # 需要部署的文件在 docs 目录下面，也就是我们使用 npm run build 生成的静态文件的位置
+        folder: docs
