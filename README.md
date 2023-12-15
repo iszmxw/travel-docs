@@ -1,3 +1,3 @@
 # travel-docs
 
-- [travel-project](travel-project)
+- [travel-project](https://github.com/iszmxw/travel-project)
