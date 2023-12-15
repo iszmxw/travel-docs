@@ -68,6 +68,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '披荆斩棘',
       items: [
         { text: 'Let\'s go', link: '/markdown/index' },
+        { text: '第一天', link: '/markdown/day/2023-12-15.md' },
       ]
     }
   ]
