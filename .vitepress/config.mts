@@ -29,7 +29,7 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'BH4D9OD16A',
+        appId: '8J64VVRP8K',
         apiKey: '561a8916c17b05fde8b50071ed1e6910',
         indexName: 'travel-docs'
       }
