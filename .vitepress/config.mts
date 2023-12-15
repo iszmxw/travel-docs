@@ -48,6 +48,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     { text: 'Home', link: '/' },
     { text: 'About', link: '/markdown/about', activeMatch: '/markdown/' },
+    { text: 'Design', link: '/markdown/design', activeMatch: '/markdown/' },
     {
       text: pkg.version,
       items: [
