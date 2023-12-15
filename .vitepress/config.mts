@@ -6,6 +6,8 @@ const pkg = require('vitepress/package.json')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/travel-docs/', // 设置站点根路径
+  outDir: './docs', // 打包输出目录
   title: "TravelDocs",
   description: "A TravelProject Docs",
   themeConfig: {
