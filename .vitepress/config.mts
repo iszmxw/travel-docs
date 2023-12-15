@@ -29,9 +29,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: '8J64VVRP8K',
-        apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-        indexName: 'vitepress'
+        appId: 'BH4D9OD16A',
+        apiKey: '561a8916c17b05fde8b50071ed1e6910',
+        indexName: 'travel-docs'
       }
     },
 
@@ -53,11 +53,7 @@ function nav(): DefaultTheme.NavItem[] {
       items: [
         {
           text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
-        },
-        {
-          text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
+          link: 'https://github.com/iszmxw/travel-project/commits/main/'
         }
       ]
     }
