@@ -41,7 +41,7 @@ jobs:
       run: pnpm run build
 
     - name: 打包
-      run: mv -R .vitepress/dist docs
+      run: mv .vitepress/dist docs
 
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4.5.0
