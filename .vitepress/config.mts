@@ -48,7 +48,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     { text: 'Home', link: '/' },
     { text: 'About', link: '/markdown/about', activeMatch: '/markdown/' },
-    { text: 'Design', link: '/markdown/design', activeMatch: '/markdown/' },
+    { text: 'Design', link: '/markdown/design' },
     {
       text: pkg.version,
       items: [
@@ -67,7 +67,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     {
       text: '披荆斩棘',
       items: [
-        { text: 'Let\'s go', link: '/markdown/index' }
+        { text: 'Let\'s go', link: '/markdown/index' },
       ]
     }
   ]
