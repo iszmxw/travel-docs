@@ -40,10 +40,13 @@ jobs:
     - name: 打包
       run: pnpm run build
 
+    - name: 打包
+      run: mv -R .vitepress/dist docs
+
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4.5.0
       with:
         # 部署分支 gh-pages（GitHub Pages 读取的分支）
         branch: gh-pages
         # 需要部署的文件在 .vitepress/dist 目录下面，也就是我们使用 npm run build 生成的静态文件的位置
-        folder: .vitepress/dist
+        folder: docs
