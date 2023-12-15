@@ -37,11 +37,11 @@ jobs:
     - name: 删除docs
       run: rm -rf .vitepress/dist
 
-    - name: 打包
-      run: pnpm run build
+    - name: 创建文件夹
+      run: mkdir -p .vitepress/dist
 
     - name: 打包
-      run: mv .vitepress/dist docs
+      run: pnpm run build
 
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4.5.0
