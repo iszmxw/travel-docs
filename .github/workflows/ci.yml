@@ -49,4 +49,4 @@ jobs:
         # 部署分支 gh-pages（GitHub Pages 读取的分支）
         branch: gh-pages
         # 需要部署的文件在 .vitepress/dist 目录下面，也就是我们使用 npm run build 生成的静态文件的位置
-        folder: docs
+        folder: .vitepress/dist
