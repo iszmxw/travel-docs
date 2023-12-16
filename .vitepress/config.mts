@@ -10,6 +10,16 @@ export default defineConfig({
   outDir: './docs', // 打包输出目录
   title: "TravelDocs",
   description: "A TravelProject Docs",
+  head: [
+    [
+      "script",
+      {
+        "data-ad-client": "3085911356698359", 
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      },
+    ],
+  ],
   themeConfig: {
     logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config

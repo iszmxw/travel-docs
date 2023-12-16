@@ -18,6 +18,8 @@ export default {
   // 引入 谷歌广告
   enhanceApp({ app, router, siteData }) {
     app.use(ScriptX);
+    app.use(Ads.Adsense);
     app.use(Ads.InArticleAdsense);
+    app.use(Ads.InFeedAdsense);
   },
 };
