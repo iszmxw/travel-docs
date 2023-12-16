@@ -4,7 +4,7 @@ import DefaultTheme from "vitepress/theme";
 import AdComponent from "./AdComponent.vue";
 
 // 引入 谷歌广告组件
-import ScriptX from "vue-scriptx";
+import ScriptX from "vue-script-xx";
 import Ads from "vue-google-adsense";
 // 引入 谷歌广告组件
 

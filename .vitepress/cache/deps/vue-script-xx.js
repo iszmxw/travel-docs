@@ -1,8 +1,11 @@
 import {
   h
 } from "./chunk-LZTJCUY2.js";
+import {
+  __publicField
+} from "./chunk-F3FYYIAV.js";
 
-// node_modules/.pnpm/vue-scriptx@0.2.5/node_modules/vue-scriptx/dist/utils.js
+// node_modules/.pnpm/vue-script-xx@0.2.5/node_modules/vue-script-xx/src/utils.ts
 var utils_default = class {
   static isUndefined(x) {
     return x === void 0;
@@ -41,13 +44,13 @@ var utils_default = class {
   }
 };
 
-// node_modules/.pnpm/vue-scriptx@0.2.5/node_modules/vue-scriptx/dist/index.js
+// node_modules/.pnpm/vue-script-xx@0.2.5/node_modules/vue-script-xx/src/index.ts
 var VueScriptX = class {
   constructor() {
-    this.installed = false;
-    this.promise = Promise.resolve();
-    this.loaded = {};
-    this.props = ["unload", "src", "type", "async", "integrity", "text", "crossorigin"];
+    __publicField(this, "installed", false);
+    __publicField(this, "promise", Promise.resolve());
+    __publicField(this, "loaded", {});
+    __publicField(this, "props", ["unload", "src", "type", "async", "integrity", "text", "crossorigin"]);
   }
   install(app) {
     app.config.globalProperties.$scriptx = this;
@@ -58,7 +61,11 @@ var VueScriptX = class {
       props: self.props,
       // Uses render method with <slot>s, see: https://v3.vuejs.org/guide/render-function.html
       render() {
-        return h("div", { style: "display:none" }, this.$slots.default ? this.$slots.default() : void 0);
+        return h(
+          "div",
+          { style: "display:none" },
+          this.$slots.default ? this.$slots.default() : void 0
+        );
       },
       mounted() {
         let parent = this.$el.parentElement;
@@ -76,7 +83,10 @@ var VueScriptX = class {
           let opts = utils_default.omitBy(utils_default.pick(this, self.props), utils_default.isUndefined);
           opts.parent = parent;
           let load = () => {
-            self.load(this.src, opts).then(() => this.$emit("loaded"), (err) => this.$emit("error", err));
+            self.load(this.src, opts).then(
+              () => this.$emit("loaded"),
+              (err) => this.$emit("error", err)
+            );
           };
           if (utils_default.isUndefined(this.async) || this.async === "false")
             self.promise = self.promise.then(load);
@@ -114,8 +124,8 @@ var VueScriptX = class {
     return this.loaded[src];
   }
 };
-var dist_default = new VueScriptX();
+var src_default = new VueScriptX();
 export {
-  dist_default as default
+  src_default as default
 };
-//# sourceMappingURL=vue-scriptx.js.map
+//# sourceMappingURL=vue-script-xx.js.map

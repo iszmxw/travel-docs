@@ -7,7 +7,7 @@ dependencies:
   vue-google-adsense:
     specifier: ^2.0.0
     version: 2.0.0(vue-scriptx@0.2.5)(vue@3.3.11)
-  vue-scriptx:
+  vue-script-xx:
     specifier: ^0.2.5
     version: 0.2.5
 
@@ -1478,6 +1478,10 @@ packages:
     dependencies:
       vue: 3.3.11
       vue-scriptx: 0.2.5
+    dev: false
+
+  /vue-script-xx@0.2.5:
+    resolution: {integrity: sha512-yt/g3duR7TuXvfvlfJl2kkcE8Ql/cJE7GK5Aw1eZaLmWsgWLVpKWtn1wlum7dEC81xtAVt/nDx8T8Aixirkz8w==}
     dev: false
 
   /vue-scriptx@0.2.5:
