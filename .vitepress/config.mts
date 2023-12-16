@@ -33,11 +33,6 @@ export default defineConfig({
         apiKey: '561a8916c17b05fde8b50071ed1e6910',
         indexName: 'travel-docs'
       }
-    },
-
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
     }
   }
 })

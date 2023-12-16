@@ -10,5 +10,9 @@
   "devDependencies": {
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "1.0.0-rc.31"
+  },
+  "dependencies": {
+    "vue-google-adsense": "^2.0.0",
+    "vue-scriptx": "^0.2.5"
   }
 }
