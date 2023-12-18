@@ -66,7 +66,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '披荆斩棘',
       items: [
         { text: 'Let\'s go', link: '/markdown/index' },
-        { text: '第一天', link: '/markdown/day/2023-12-15.md' },
+        { text: '1.1开发环境准备', link: '/markdown/day/1.1开发环境准备.md' },
+        { text: '1.2使用vite初始化项目', link: '/markdown/day/1.2使用vite初始化项目.md' },
+        { text: '1.3vant组件库的安装步骤', link: '/markdown/day/1.3vant组件库的安装步骤.md' },
+        { text: '1.4vant组件库中使用field组件', link: '/markdown/day/1.4vant组件库中使用field组件.md' },
       ]
     }
   ]
