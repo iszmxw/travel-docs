@@ -6,6 +6,7 @@ const pkg = require('vitepress/package.json')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   base: '/travel-docs/', // 设置站点根路径
   outDir: './docs', // 打包输出目录
   title: "TravelDocs",
@@ -35,15 +36,7 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
     },
-
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: '8J64VVRP8K',
-        apiKey: '561a8916c17b05fde8b50071ed1e6910',
-        indexName: 'travel-docs'
-      }
-    }
+    lastUpdated: '最近更新时间 ',
   }
 })
 
