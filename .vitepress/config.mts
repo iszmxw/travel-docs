@@ -70,6 +70,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: '1.2使用vite初始化项目', link: '/markdown/day/1.2使用vite初始化项目.md' },
         { text: '1.3vant组件库的安装步骤', link: '/markdown/day/1.3vant组件库的安装步骤.md' },
         { text: '1.4vant组件库中使用field组件', link: '/markdown/day/1.4vant组件库中使用field组件.md' },
+        { text: '1.5使用rem适配', link: '/markdown/day/1.5使用rem适配.md' },
       ]
     }
   ]
